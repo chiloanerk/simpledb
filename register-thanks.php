@@ -14,14 +14,13 @@
 </head>
 <body>
 <div class="container" style="margin-top:30px">
-    <!-- Header Section #1-->
+    <!-- Header Section -->
     <header class="jumbotron text-center row"
-            style="margin-bottom:2px; background:linear-gradient(white, #0073e6);padding:20px;">
-        <?php include('header-for-template.php'); ?>
+            style="margin-bottom:2px; background:linear-gradient(white, #0073e6); padding:20px;">
+        <?php include('header.php'); ?>
     </header>
-
-    <!-- Body Section #2-->
-    <div class="row" style="padding-left: 0;">
+    <!-- Body Section -->
+    <div class="row" style="padding-left: 0px;">
         <!-- Left-side Column Menu Section -->
         <nav class="col-sm-2">
             <ul class="nav nav-pills flex-column">
@@ -29,28 +28,22 @@
             </ul>
         </nav>
         <!-- Center Column Content Section -->
-        <div class="col-sm-8">
-            <h2 class="text-center">This is the Home Page</h2>
-            <p>The home page content. The home page content. The home page content. The home
-                page content. <br>
-                The home page content. The home page content. The home page content. The home page
-                content. <br>
-                The home page content. The home page content. <br>
-                The home page content. The home page content. The home page content. </p>
+        <div class="col-sm-8 text-center">
+            <h2>Thank you for registering</h2>
+            On the Home Page, you will now be able to login and add new quotes to the message board.
+            <!-- login does not yet work, nut will in the next chapter -->
         </div>
-
-        <!-- Right-side Column Content Section #3-->
+        <!-- Right-side Column Content Section -->
         <aside class="col-sm-2">
             <?php include('info-col.php'); ?>
         </aside>
     </div>
-    <!-- Footer Content Section #4-->
+    <!-- Footer Content Section -->
     <footer class="jumbotron text-center row"
             style="padding-bottom:1px; padding-top:8px;">
         <?php include('footer.php'); ?>
     </footer>
 </div>
-
 
 </body>
 </html>
