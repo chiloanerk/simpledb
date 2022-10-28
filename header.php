@@ -9,8 +9,7 @@
         <button type="button" class="btn btn-secondary" onclick="location.href = 'register-page.php'">
             Register
         </button>
-        <button type="button" class="btn btn-secondary" onclick="location.href = 'register-view_
-users-page.php'">
+        <button type="button" class="btn btn-secondary" onclick="location.href = 'register-view-users.php'">
             View Users
         </button>
         <button type="button" class="btn btn-secondary" onclick="location.href = 'register-password.
