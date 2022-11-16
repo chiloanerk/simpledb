@@ -17,7 +17,7 @@
     <!--        Header Section -->
     <header class="jumbotron text-center row"
             style="margin-bottom: 2px; background: linear-gradient(white, #0073e6); padding: 20px;">
-        <?php include('header.php'); ?>
+        <?php include('register-header.php'); ?>
     </header>
     <!--        Body Section-->
     <div class="row" style="padding-left: 0;">
