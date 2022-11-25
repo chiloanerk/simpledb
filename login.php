@@ -30,6 +30,7 @@
                 <?php include('nav.php'); ?>
             </ul>
         </nav>
+
 <!--        Validate Input-->
         <?php
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -46,8 +47,6 @@
                         placeholder="Email" maxlength="30" required
                         value="<?php if (isset($_POST['email'])) echo $_POST['email']; ?>">
                     </div>
-                </div>
-                <div class="form-group row">
                     <label for="password" class="col-sm-4 col-form-label">Password:</label>
                     <div class="col-sm-8">
                         <input type="password" class="form-control" id="password" name="password"
@@ -66,7 +65,7 @@
 <!--        Right-side Column Content Section-->
         <?php
         if (!isset($errorstring)) {
-            echo "<aside class'col-sm-2'>";
+            echo "<aside class='col-sm-2'>";
             include ('info-col.php');
             echo '</aside>';
             echo '</div>';
@@ -79,7 +78,7 @@
         include ('footer.php');
         ?>
         </footer>
-    </div>
+
 </div>
 </body>
 </html>
