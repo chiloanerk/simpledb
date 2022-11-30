@@ -9,7 +9,7 @@
         <button type="button" class="btn btn-secondary" onclick="location.href = 'logout.php'">
             Logout
         </button>
-        <button type="button" class="btn btn-secondary" onclick="location.href = 'admin_view_users.php'">
+        <button type="button" class="btn btn-secondary" onclick="location.href = 'admin-view-users.php'">
             View Members
         </button>
         <button type="button" class="btn btn-secondary" onclick="location.href = '#.php'">

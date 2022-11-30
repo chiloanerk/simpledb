@@ -1,7 +1,7 @@
 <?php
 session_start();
 // if no session variable exists then redirect the user
-if (!isset($_SESSION['user_id'])) {
+if (!isset($_SESSION['user_level'])) {
     header("Location: index.php");
     exit();
 } else {
