@@ -15,9 +15,6 @@
         <button type="button" class="btn btn-secondary" onclick="location.href = '#.php'">
             Search
         </button>
-        <button type="button" class="btn btn-secondary" onclick="location.href = '#.php'">
-            Addressss
-        </button>
         <button type="button" class="btn btn-secondary" onclick="location.href = 'register-password.php'">
             New Password
         </button>
