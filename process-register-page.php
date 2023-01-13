@@ -34,7 +34,7 @@ if (!empty($password1)) {
     require ('mysqli_connect.php'); //Connect to the db.
     //Make the query:
     $query = "INSERT INTO users (userid, first_name, last_name, email, password, registration_date)";
-    $query .="VALUES(' ', ?, ?, ?, ?, NOW() )";
+    $query .="VALUES(null, ?, ?, ?, ?, NOW() )";
     $q = mysqli_stmt_init($dbcon);
     mysqli_stmt_prepare($q, $query);
     // use prepared statement to ensure that only text is inserted
